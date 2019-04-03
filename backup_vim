@@ -1,0 +1,8 @@
+#! /bin/bash
+#-----------------------------------------------------------------------
+#- copy .vimrc here and push update from script
+#-----------------------------------------------------------------------
+
+cp ~/.vimrc .
+git commit -m "updated from script - $(date)"
+git push
